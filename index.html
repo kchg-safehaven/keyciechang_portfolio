@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Admin Systèmes & Réseaux</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="typing-animation">Bienvenue sur mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#bts-sio">BTS SIO</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#veille-tech">Veille Technologique</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>    
+    
+    <main>
+        <section id="profil">
+            <h2>👤 Mon Profil</h2>
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="/images/2.jpg" alt="Photo de profil">
+                </div>
+                <div class="profile-content">
+                    <h3>Bienvenue sur mon portfolio !</h3>
+                    <p>Je suis une étudiante en BTS SIO option SISR, passionnée par les systèmes et réseaux informatiques ainsi que la cybersécurité. Mon objectif est de devenir ingénieure en systèmes et réseaux avec une spécialisation en cybersécurité.</p>
+                    <p>Grâce à mes études et mes expériences en stage et alternance, j'ai acquis des compétences en gestion des infrastructures, en sécurisation des réseaux et en automatisation des processus IT.</p>
+                    <p>Curieuse et toujours à la recherche de nouvelles connaissances, j'explore également le Machine Learning et l’ordinateur quantique pour mieux comprendre l'avenir des technologies.</p>
+                    <a href="#about" class="profile-button">En savoir plus</a>
+                </div>
+            </div>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/votreprofil" target="_blank" class="social-btn linkedin">🔗 LinkedIn</a>
+                <a href="https://www.instagram.com/votreprofil" target="_blank" class="social-btn instagram">🔗 Instagram</a>
+                <a href="cv.pdf" target="_blank" class="social-btn cv">📄 CV</a>
+                <a href="synthese.pdf" target="_blank" class="social-btn synthese">📄 Synthèse</a>
+            </div>
+        </section>
+        
+            <!-- Animation du café fumant -->
+        <div class="coffee-container">
+            <img src="/images/coffee.png" alt="Café chaud" class="coffee-cup">
+            <div class="steam"></div>
+            <div class="steam" style="left: 50%; animation-delay: 0.2s;"></div>
+            <div class="steam" style="left: 30%; animation-delay: 0.4s;"></div>
+        </div>
+        
+        <section id="bts-sio">
+            <h2>🎓 BTS SIO : Présentation et Débouchés</h2>
+            <p>Le BTS Services Informatiques aux Organisations (BTS SIO) est une formation en deux ans qui permet d'acquérir des compétences en informatique pour répondre aux besoins des entreprises et organisations. 
+               Ce diplôme forme des professionnels capables de gérer des infrastructures réseau, de sécuriser des systèmes informatiques et de développer des applications logicielles.</p>
+            <p>Le BTS SIO propose deux options distinctes :</p>
+            <div class="bts-container">
+                <div class="bts-grid">
+                    <div class="bts-card">
+                        <h3>🔧 Option SISR (Solutions d’Infrastructure, Systèmes et Réseaux)</h3>
+                        <p>Cette option forme aux métiers de l'administration des réseaux et des systèmes informatiques. Les étudiants apprennent à gérer, sécuriser et optimiser les infrastructures IT.</p>
+                        <h4>Débouchés :</h4>
+                        <ul>
+                            <li>Administrateur systèmes et réseaux</li>
+                            <li>Technicien support informatique</li>
+                            <li>Ingénieur en cybersécurité</li>
+                            <li>Responsable informatique</li>
+                        </ul>
+                    </div>
+                    <div class="bts-card">
+                        <h3>💻 Option SLAM (Solutions Logicielles et Applications Métier)</h3>
+                        <p>Cette option est dédiée au développement d’applications et de solutions logicielles. Les étudiants maîtrisent les langages de programmation et la gestion des bases de données.</p>
+                        <h4>Débouchés :</h4>
+                        <ul>
+                            <li>Développeur web et mobile</li>
+                            <li>Concepteur d’applications</li>
+                            <li>Analyste programmeur</li>
+                            <li>Chef de projet informatique</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bts-card">
+                    <h3>🛡️ Option Cybersécurité</h3>
+                    <p>Cette spécialisation permet aux étudiants d’acquérir des compétences en sécurisation des infrastructures IT, en protection des données et en réponse aux incidents de cybersécurité.</p>
+                    <h4>Débouchés :</h4>
+                    <ul>
+                        <li>Analyste en cybersécurité</li>
+                        <li>Ingénieur en sécurité informatique</li>
+                        <li>Responsable SOC (Security Operations Center)</li>
+                        <li>Expert en gestion des risques et conformité</li>
+                    </ul>
+                </div>
+            </div>
+        </section>   
+        
+        <section id="diplomes">
+            <h2>🎓 Diplômes Obtenus</h2>
+            <div class="diplomes-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3>Baccalauréat Professionnel Systèmes Numériques</h3>
+                            <p>Le <strong>Bac Pro SN (Systèmes Numériques)</strong> forme des techniciens capables d'intervenir sur des systèmes électroniques et informatiques dans divers secteurs (télécommunications, réseaux, électronique embarquée). Il permet d'acquérir des compétences en installation, maintenance et programmation de systèmes numériques.  
+                                Depuis la rentrée 2024, le Bac Pro SN est progressivement remplacé par le <strong>Bac Pro CIEL(Cybersécurité, Informatique et réseaux, Électronique),</strong> qui met davantage l'accent sur la cybersécurité et les nouvelles technologies du numérique.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h3>BTS SIO (Option SISR)</h3>
+                            <p>Le <strong>BTS SIO (Services Informatiques aux Organisations)</strong> forme des spécialistes en développement et en gestion des infrastructures informatiques. Il propose deux options : <strong>SLAM</strong> (Solutions Logicielles et Applications Métiers) pour le développement, et <strong>SISR</strong> (Solutions d’Infrastructure, Systèmes et Réseaux) pour l’administration des réseaux.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="stages-alternance">
+            <h2>🏢 Stages et Alternance</h2>
+            <div class="stages-container">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023-2024</div>
+                        <div class="timeline-content">
+                            <h3>Alternance - Technicien Support Informatique et Audiovisuel</h3>
+                            <p><strong>Entreprise:</strong> Telecom Paris</p>
+                            <p><strong>Durée:</strong> 10 mois</p>
+                            <p><strong>Mission:</strong></p> 
+                                <ul>
+                                <li>Support technique et maintenance des équipements informatiques et audiovisuels (Windows, macOS, Office 365).</li>  
+                                <li>Installation, configuration et dépannage des postes de travail, périphériques et systèmes audio/vidéo (Teams, Zoom, OBS, Crestron).</li>  
+                                <li>Assistance et formation des utilisateurs sur les outils numériques (ITSM, ticketing, GLPI, SCCM).</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>Alternance - Systèmes d'Informations</h3>
+                            <p><strong>Entreprise:</strong> V2V | Van de Velde</p>
+                            <p><strong>Durée:</strong> 11 mois</p>
+                            <p><strong>Mission:</strong></p>
+                            <ul>
+                                <li>Administration et sécurisation des systèmes d’information (Windows Server, Linux, Active Directory).</li>  
+                                <li>Gestion des réseaux, serveurs et bases de données (Cisco, SQL, VMware) pour optimiser la performance.</li>  
+                                <li>Mise en place de solutions de sauvegarde et de cybersécurité (Veeam, Fortinet, Firewall, SIEM).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>Stagiare - Médiatrice Numérique</h3>
+                            <p><strong>Entreprise:</strong> Fablab Makeo</p>
+                            <p><strong>Durée:</strong> 2 mois</p>
+                            <p><strong>Mission:</strong></p>
+                            <ul>
+                                <li>Aider les personnes à utiliser les outils numériques (ordinateurs, tablettes, smartphones).</li>  
+                                <li>Sensibiliser aux bonnes pratiques numériques (sécurité en ligne, protection des données).</li>  
+                                <li>Participer à la promotion des activités (affiches, réseaux sociaux, newsletters).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>               
+        
+        <section id="skills">
+            <h2> Compétences</h2>
+            <div class="skills-container">
+                <div class="skills-card">
+                    <h3>🔧 Administration Windows & Linux</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3>🔐 Réseaux & Sécurité</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3>🖥️ Virtualisation (VMware, Hyper-V)</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3>☁️ Cloud Computing (AWS, Azure)</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3>📜 Scripting (Bash, PowerShell, Python)</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        </section>
+        <section id="projects">
+            <h2> Projets</h2>
+            <div class="projects-container">
+                <h3>📚 Projets en Formation</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="/images/3.jpg" alt="Projet Formation 1">
+                        <h4>Création d'une entreprise virtuelle (AP1)</h4>
+                        <p>Mise en place d'un serveur Linux avec gestion des droits et sécurité renforcée.</p>
+                        <a href="/images/3.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/3.jpg" alt="Projet Formation 2">
+                        <h4>Répondre aux problématique de M2L (AP2)</h4>
+                        <p>Installation et configuration d’un réseau local avec VLANs.</p>
+                        <a href="/images/3.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/8.jpg" alt="Projet Formation 3">
+                        <h4>Supervision réseau</h4>
+                        <p>Implémentation d'une solution de monitoring avec Zabbix.</p>
+                        <a href="/images/8.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/8.jpg" alt="Projet Formation 4">
+                        <h4>Installation et configuration d'un Proxmox Backup</h4>
+                        <p>Sauvegarder et restaurer des machines virtuelles et fichiers importants.</p>
+                        <a href="/images/8.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/8.jpg" alt="Projet Formation 5">
+                        <h4>Installation et configuration d'un serveur TrueNAS</h4>
+                        <p>Stocker et partager des fichiers en réseau de façon sécurisée.</p>
+                        <a href="/images/8.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/8.jpg" alt="Projet Formation 6">
+                        <h4>Gestion des utilisateurs</h4>
+                        <p>Administration des utilisateurs avec LDAP et Active Directory.</p>
+                        <a href="/images/8.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                </div>
+                
+                <h3>🏢 Projets en Entreprise</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="/images/5.jpg" alt="Projet Entreprise 1">
+                        <h4>Création d'une entreprise virtuelle (AP1)</h4>
+                        <p>Mise en place et migration d'un domaine Active Directory.</p>
+                        <a href="/images/5.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/5.jpg" alt="Projet Entreprise 2">
+                        <h4>Déploiement de pare-feu</h4>
+                        <p>Configuration et sécurisation d’un pare-feu professionnel.</p>
+                        <a href="/images/5.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/4.jpg" alt="Projet Entreprise 3">
+                        <h4>Virtualisation de serveurs</h4>
+                        <p>Optimisation des ressources avec VMware et Hyper-V.</p>
+                        <a href="/images/4.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/4.jpg" alt="Projet Entreprise 4">
+                        <h4>Déploiement d’un SI complet</h4>
+                        <p>Installation d’un système informatique avec sauvegarde et sécurité.</p>
+                        <a href="/images/4.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/4.jpg" alt="Projet Entreprise 5">
+                        <h4>Audit de sécurité</h4>
+                        <p>Analyse et sécurisation d’infrastructures d’entreprise.</p>
+                        <a href="/images/4.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="/images/4.jpg" alt="Projet Entreprise 6">
+                        <h4>Intégration d’outils DevOps</h4>
+                        <p>Mise en place de CI/CD avec Docker et Jenkins.</p>
+                        <a href="/images/4.jpg" target="_blank" class="project-button">📄 En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        
+        <section id="certifications">
+            <h2>🏅 Certifications</h2>
+            <div class="certifications-carousel">
+                <div class="carousel-container">
+                    <img src="/images/ccna-badge.png" alt="Certification 1">
+                    <img src="/images/ccst-badge.png" alt="Certification 2">
+                    <img src="/images/fundamental_miscrosoft.png" alt="Certification 3">
+                    <img src="/images/computer-hardware-basics.png" alt="Certification 4">
+                    <img src="/images/introduction-to-cybersecurity.png" alt="Certification 5">
+                    <img src="badge6.png" alt="Certification 6">
+                </div>
+            </div>
+        </section>
+        
+        <section id="veille-tech">
+            <h2>🛠️ Veille Technologique</h2>
+            <div class="veille-container">
+                <div class="veille-grid">
+                    <div class="veille-card">
+                        <h3>🤖 Machine Learning</h3>
+                        <p>Le Machine Learning permet aux systèmes informatiques d'apprendre et de s'améliorer automatiquement à partir de données.</p>
+                        <a href="machine-learning.pdf" target="_blank">📄 Voir le PDF</a>
+                    </div>
+                    <div class="veille-card">
+                        <h3>💻 Ordinateur Quantique</h3>
+                        <p>Les ordinateurs quantiques utilisent les principes de la mécanique quantique pour effectuer des calculs complexes beaucoup plus rapidement.</p>
+                        <a href="ordinateur-quantique.pdf" target="_blank">📄 Voir le PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="contact">
+            <h2> Contact</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Votre nom" required>
+                <input type="email" id="email" placeholder="Votre email" required>
+                <textarea id="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="form-message"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 - Chang Keycie - Portfolio</p>
+    </footer>
+
+</body>
+</html>
