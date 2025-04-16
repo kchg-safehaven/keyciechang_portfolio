@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keycie #WorldSecurityInformations - Portfolio Etudiante en Informatique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Keycie<span>Admin</span></a>
+            <div class="navbar-links">
+                <a href="#home">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#experience">Expérience</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Keycie <span>Administrateur Sécurité</span></h1>
+                <p class="hero-subtitle">Automatisation | Cloud | Réseaux & Systèmes | Infrastructure as Code </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Me contacter</a>
+                    <a href="/pdf/CV.pdf" download class="btn btn-secondary">Télécharger CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/images/3.jpg" alt="Keycie DevOps et Cybersécurité">
+                    <div class="tech-icons">
+                        <i class="fab fa-cisco"></i>
+                        <i class="fab fa-docker"></i>
+                        <i class="fab fa-aws"></i>
+                        <i class="fab fa-linux"></i>
+                        <i class="fab fa-git-alt"></i>
+                        <i class="fab fa-python"></i>
+                        <i class="fab fa-ansible"></i>
+                        <i class="fab fa-terraform"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de <span>moi</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/5.jpg" alt="À propos de Keycie">
+                </div>
+                <div class="about-text">
+                    <h3>Étudiante en BTS passionée par l'administration sécurisée des infrastructures.</h3>
+                    <p>Je suis étudiante en BTS SIO en voie de finalisation, je me spécialise en administration réseaux et infrastructures sécurisées. Passionné par la sécurité d'information opérationnelle, je souhaite concevoir et maintenir des architectures réseau robustes, en maîtrisant les protocoles de sécurisation (TLS, IPsec, VLANs), la gestion des identités (IAM, Radius) et les outils de supervision (SIEM, Wireshark). Mon objectif : intégrer une formation bac+3 en alternance pour devenir expert en infrastructures résilientes.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Nom:</span>
+                            <p>Keycie Chang</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Formation:</span>
+                            <p>Bachelor Administrateur réseaux option Admin d’infrastructures sécurisées</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Disponibilité:</span>
+                            <p>Recherche alternance/stage</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes <span>compétences</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud & Infrastructure</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>AWS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress aws"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Docker</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress docker"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Kubernetes</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress kubernetes"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Azure</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress terraform"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Développement & Scripting</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress python"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Bash</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress bash"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PowerShell</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress git"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Linux</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress linux"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Outils de diagnostic et dépannage</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Wireshark (analyse de trafic réseau)</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress jenkins"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Fiddler (débogage HTTP)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress github"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PuTTY (accès SSH/Telnet)</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress ansible"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Réseau : ping, tracert/traceroute, ipconfig/ifconfig, nslookup/dig, netstat</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress monitoring"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Administration Systèmes & Réseaux</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Windows Server</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress jenkins"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Linux</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress github"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>VMWare/VirtualBox/Proxmox</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress ansible"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PfSense</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress monitoring"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Développement Web Application & Programmation</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress jenkins"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>PHP</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress github"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaSscript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress ansible"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>C#</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress monitoring"></div>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Mon <span>parcours</span></h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Septembre 2024 - Présent</span>
+                        <h3>Apprentie | Technicienne Support en Informatique et Audiovisuel</h3>
+                        <p>Télécom Paris | Massy-Palaiseau | Ile-de-France</p>
+                        <ul>
+                            <li>Assistance et support technique – Capacité à diagnostiquer et résoudre des problèmes informatiques et audiovisuels (matériel, logiciel, réseau, périphériques).</li>
+                            <li>Maîtrise des équipements audiovisuels – Connaissance des systèmes de vidéoprojection, sonorisation, enregistrement et diffusion multimédia.</li>
+                            <li>Gestion et maintenance des systèmes – Installation, configuration et mise à jour des équipements informatiques et audiovisuels pour assurer leur bon fonctionnement.</li>
+                            <li>Sens du service et communication – Capacité à interagir avec les utilisateurs, expliquer des solutions techniques et assurer une assistance efficace.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Présent</span>
+                        <h3>BTS SIO 2e année | Option Solutions d'Infrastructures, Systèmes et Réseaux.</h3>
+                        <p>Institut privé supérieur du système d'information | Paris | Ile-de-France</p>
+                        <ul>
+                            <li>Administration des systèmes et réseaux – Gestion, configuration et sécurisation des infrastructures informatiques (serveurs, réseaux, virtualisation).</li>
+                            <li>Sécurité informatique et gestion des accès – Mise en place de stratégies de protection des données, pare-feu, VPN, et surveillance des systèmes.</li>
+                            <li>Déploiement et maintenance des infrastructures – Installation et mise à jour de systèmes d’exploitation, logiciels et équipements réseau.</li>
+                            <li>Support et assistance technique – Diagnostic et résolution des incidents techniques, accompagnement des utilisateurs et documentation des interventions.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">Août 2023- Juin 2024</span>
+                        <h3>Apprentie | Systèmes d'informations</h3>
+                        <p>V2V | Van de Velde | Mont-de-Marsan | Nouvelle-Aquitaine</p>
+                        <ul>
+                            <li>Administration des systèmes et réseaux – Capacité à gérer, sécuriser et optimiser les infrastructures IT (serveurs, bases de données, réseaux).</li>
+                            <li>Sécurité des systèmes d’information – Connaissance des protocoles de cybersécurité, gestion des accès, protection des données et conformité aux normes.</li>
+                            <li>Gestion des bases de données – Maîtrise des SGBD (SQL, NoSQL), optimisation des performances et administration des données.</li>
+                            <li>Analyse et gestion des projets SI – Capacité à comprendre les besoins métier, piloter des projets d’évolution des SI et assurer l’intégration de nouvelles solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023-2024</span>
+                        <h3>BTS SIO 1er année - Option Solutions d'Infrastructures, Systèmes et Réseaux.</h3>
+                        <p>Ecole Supérieur du Numérique des Landes - Mont-de-Marsan</p>
+                        <ul>
+                            <li>Administration des systèmes et réseaux – Installation, configuration et gestion des serveurs, postes clients, équipements réseau et services associés.</li>
+                            <li>Sécurisation des infrastructures – Mise en place de stratégies de cybersécurité (pare-feu, VPN, sauvegardes, authentification) pour protéger les données et les accès.</li>
+                            <li>Virtualisation et gestion des services – Utilisation d’outils comme VMware, Hyper-V ou Proxmox pour déployer et administrer des environnements virtualisés.</li>
+                            <li>Support technique et maintenance – Assistance aux utilisateurs, diagnostic et résolution des incidents matériels, logiciels ou réseau.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="timeline-date">2020 - 2023</span>
+                        <h3>Baccalauréat Professionelle Systèmes Numériques - Options Réseaux Informatiques et Systèmes Communicants (RISC)</h3>
+                        <p>Lycée Professionel Polyvalent Saint-Exupéry | Parentis-en-Born</p>
+                        <ul>
+                            <li>Installation et configuration des équipements – Mise en place de réseaux informatiques, paramétrage de serveurs, routeurs et switchs.</li>
+                            <li>Maintenance et dépannage – Diagnostic et résolution des pannes matérielles et logicielles sur les équipements informatiques et réseaux.</li>
+                            <li>Sécurisation des systèmes – Application des protocoles de cybersécurité pour protéger les données et les infrastructures réseau.</li>
+                            <li>Communication et assistance technique – Capacité à expliquer des solutions techniques aux clients et utilisateurs, et assurer un support efficace.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes <span>projets</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Pipeline CI/CD">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Script Powershell - Rangé ses ordinateurs du domaine</h3>
+                        <p>Implémentation d'un pipeline complet avec tests, build et déploiement sur AWS EKS.</p>
+                        <div class="project-tags">
+                            <span>Windows Serveur 2022</span>
+                            <span>Powershell</span>
+                            <span>Active Directory</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Infrastructure as Code">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Déploiement automatisé d'une infrastructure cloud complète avec Terraform et Ansible.</p>
+                        <div class="project-tags">
+                            <span>Terraform</span>
+                            <span>Ansible</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Monitoring">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Système de Monitoring</h3>
+                        <p>Solution de surveillance des performances avec alertes et tableaux de bord personnalisés.</p>
+                        <div class="project-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Alertmanager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Monitoring">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Création d'un serveur de virtualisation à domicile</h3>
+                        <p>Solution de surveillance des performances avec alertes et tableaux de bord personnalisés.</p>
+                        <div class="project-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Alertmanager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Monitoring">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Système de Monitoring</h3>
+                        <p>Solution de surveillance des performances avec alertes et tableaux de bord personnalisés.</p>
+                        <div class="project-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Alertmanager</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Monitoring">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Système de Monitoring</h3>
+                        <p>Solution de surveillance des performances avec alertes et tableaux de bord personnalisés.</p>
+                        <div class="project-tags">
+                            <span>Prometheus</span>
+                            <span>Grafana</span>
+                            <span>Alertmanager</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me <span>contacter</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Disponible pour des opportunités</h3>
+                    <p>Je suis actuellement à la recherche d'une alternance ou d'un stage dans le domaine du DevOps. N'hésitez pas à me contacter pour discuter de projets ou d'opportunités.</p>
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>k.chg.working@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Paris, France</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Keycie</h3>
+                    <p>Je suis étudiante en BTS SIO en voie de finalisation, je me spécialise en administration réseaux et infrastructures sécurisées. Passionné par la cybersécurité opérationnelle, je souhaite concevoir et maintenir des architectures réseau robustes, en maîtrisant les protocoles de sécurisation (TLS, IPsec, VLANs), la gestion des identités (IAM, Radius) et les outils de supervision (SIEM, Wireshark). Mon objectif : intégrer une formation bac+3 en alternance pour devenir expert en infrastructures résilientes.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> k.chg.working@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Paris, France</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Keycie Admin | Tous droits réservés.</p>
+            </div>  
+        </div>
+    </footer>
