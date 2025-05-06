@@ -19,7 +19,6 @@
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#veille-tech">Veille Technologique</a></li>
-                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>    
@@ -35,7 +34,6 @@
                     <h3>Bienvenue sur mon portfolio !</h3>
                     <p>Actuellement étudiante en BTS SIO option SISR, passionnée par les systèmes et réseaux informatiques ainsi que la cybersécurité. Mon objectif est de devenir experte en cybersécurité dans les systèmes d'informations.</p>
                     <p>Grâce à mes études et mes expériences en stage et alternance, j'ai acquis des compétences en gestion des infrastructures, en sécurisation des réseaux et en automatisation des processus IT.</p>
-                    <a href="/aboutme;)/index.html" class="profile-button">Ici, mon site web professionnel</a>
                 </div>
             </div>
             <div class="social-buttons">
@@ -246,6 +244,12 @@
                         <p>L'installation et la configuration de Ubuntu, un systèmes exploitation pour les utilisateurs.</p>
                         <a href="/pdf/Installation-Configuration-Ubuntu.pdf"  target="_blank" class="project-button" onclick="openPDF()">📄 En savoir plus</a>
                     </div>
+                    <div class="project-card">
+                        <img src="/images/8.jpg" alt="Projet Formation 7">
+                        <h4>Préparation de la certification Microsoft: Azure Administrator Associate</h4>
+                        <p>Présentation de la certification Microsoft: Azure Administrator Associate.</p>
+                        <a href="/pdf/Certification-Microsoft-Azure-Administrator-Associate.pdf"  target="_blank" class="project-button" onclick="openPDF()">📄 En savoir plus</a>
+                    </div>
             </div>
         </section>
 
@@ -274,8 +278,8 @@
                     <div class="project-card">
                         <img src="/images/4.jpg" alt="Projet Entreprise 6">
                         <h4>Accompagner les utilisateurs dans l'utilisation des services</h4>
-                        <p>Mise en place de CI/CD avec Docker et Jenkins.</p>
-                        <a href="/images/4.jpg"  target="_blank" class="project-button" onclick="openPDF()">📄 En savoir plus</a>
+                        <p>Assistance aux utilisateurs chez V2V - deuxième année BTS SIO</p>
+                        <a href="/pdf/Accompagnement-des-Utilisateurs-dans-l'Utilisation-des Services-Telecom-Paris.pdf"  target="_blank" class="project-button" onclick="openPDF()">📄 En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -308,17 +312,22 @@
                         <div class="veille-card">
                             <h3>🤖 L'apprentissage automatique : <a href="/pdf/Veille-Technologique-Machine-Learning.pdf" target="_blank">La Machine Learning</a></h3>
                             <ul>
-                                <li><a href="https://www.sciencedaily.com/news/computers_math/machine_learning/" target="_blank">ScienceDaily - Machine Learning News</a></li>
+                                <li><a href="https://www.reddit.com/r/MachineLearning/?rdt=37719" target="_blank">Reddit - Machine Learning News</a></li>
                                 <li><a href="https://towardsdatascience.com/" target="_blank">Towards Data Science - Articles sur le Machine Learning</a></li>
                                 <li><a href="https://www.forbes.com/machine-learning/" target="_blank">Forbes - Machine Learning Trends</a></li>
+                                <li><a href="https://www.kdnuggets.com/" target="_blank">KDnuggets - Ressources sur le Machine Learning</a></li>
+                                <li><a href="https://feedly.com/i/collection/content/user/4d2d0b33-4545-44c9-883b-eac2fef6afb5/category/7186bbe2-09bb-4e1d-81c9-809c2b4ec505" target="_blank">Feedly - Articles sur le Machine Learning</a></li>
                             </ul>
                         </div>
                         <div class="veille-card">
                             <h3>💻 Ansible : <a href="/pdf/Ansible-Ma-Veille-Technologique.pdf" target="_blank">Automatisation IT</a></h3>
                             <ul>
-                                <li><a href="https://www.redhat.com/en/topics/automation/what-is-ansible" target="_blank">Red Hat - Introduction à Ansible</a></li>
                                 <li><a href="https://opensource.com/tags/ansible" target="_blank">Opensource.com - Articles sur Ansible</a></li>
                                 <li><a href="https://www.techtarget.com/searchitoperations/definition/Ansible" target="_blank">TechTarget - Guide sur Ansible</a></li>
+                                <li><a href="https://www.ansible.com/resources/get-started" target="_blank">Ansible - Ressources et tutoriels</a></li>
+                                <li><a href="https://www.redhat.com/fr/blog/channel/red-hat-ansible-automation" target="_blank">Red Hat - Forum Ansible Automatisation</a></li>
+                                <li><a href="https://www.reddit.com/r/ansible/" target="_blank">Reddit - Actus sur Ansible</a></li>
+                                <li><a href="https://www.pluralsight.com/courses/ansible-getting-started" target="_blank">Pluralsight - Introduction à Ansible</a></li>
                             </ul>
                         </div>
                     </div>
@@ -326,23 +335,6 @@
             </section>
         </section>
         
-        
-        <section id="contact">
-            <h2> Contact</h2>
-            <form action="send_mail.php" method="POST">
-                <label for="name">Nom :</label><br>
-                <input type="text" id="name" name="name" required><br><br>
-        
-                <label for="email">Email :</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-        
-                <label for="message">Message :</label><br>
-                <textarea id="message" name="message" rows="5" required></textarea><br><br>
-        
-                <button type="submit">Envoyer</button>
-            </form>                       
-        </section>
-    </main>
     
     <footer class="footer">
         <div class="container">
