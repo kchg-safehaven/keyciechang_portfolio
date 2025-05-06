@@ -66,3 +66,33 @@ document.addEventListener("scroll", function () {
         }
     });
 });
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+  
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+  
+    // Validation simple
+    if (name && email && message) {
+      // Envoi AJAX
+      fetch('sendEmail.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert('Message envoyé !');
+      })
+      .catch((error) => {
+        alert('Erreur lors de l\'envoi du message.');
+      });
+    } else {
+      alert('Tous les champs sont requis.');
+    }
+  });
+  
